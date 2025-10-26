@@ -28,10 +28,10 @@ function Home() {
                 </div>
               </div>
             </div>
+            {/* personally wouldn't have 2 columns here but that's probably a
+                requirement, but I would just not have this section at all*/}
             <div class="col-md-5">
               <div className="boxHome">
-                {/* personally wouldn't have 2 columns here but that's probably a
-                requirement*/}
                 <p>
                   Navigate to my <Link to="/portfolio">Portfolio Page</Link> to
                   see what I have worked on, and click on my{" "}

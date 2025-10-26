@@ -157,6 +157,10 @@ button:focus-visible {
 }
 
 /*stuff i added below*/
+.boxHome {
+  min-height: 0px;
+}
+
 .headshot {
   max-width: 250px;
 }

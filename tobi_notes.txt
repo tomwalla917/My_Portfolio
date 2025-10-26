@@ -1,0 +1,7 @@
+additional feedback:
+
+headings are your friend. don't have a p element with a class of h4- use a h4. also, don't go so small. 
+start the page with a h1 or h2- I saw your h6s on the resume page
+
+also- I'm 99% sure your hamburger menu is a component from someplace else. learning to code
+that yourself is really good practice 

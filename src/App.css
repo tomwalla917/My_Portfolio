@@ -89,6 +89,11 @@
 }
 
 /*below is all styling i added*/
+.boxHome {
+  min-height: 0px; /*this might be a class requirement but min-height at 75vh looks bad to me personally*/
+  padding: 2rem;
+}
+
 .name h4 {
   text-align: left;
 }
