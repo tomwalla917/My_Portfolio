@@ -132,6 +132,9 @@ align-items: flex-start;
 .prjDesc a:hover{
   text-decoration: underline;
 }
+.boxHome a:hover{
+  text-decoration: underline;
+}
 .thumbnail{
   display: flex;
   align-items: center;

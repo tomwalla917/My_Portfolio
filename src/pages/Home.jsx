@@ -28,7 +28,7 @@ function Home() {
                         <div class="col-md-5">
                             <div className="boxHome">
                                 <p>
-                                    Navigate to my portfolio page to see what I have worked on, and click on my contact page to connect!
+                                    Navigate to my <Link to="/portfolio">Portfolio Page</Link> to see what I have worked on, and click on my <Link to="/contact">Contact Page</Link> to connect!
                                 </p>
                             </div>
                         </div>
