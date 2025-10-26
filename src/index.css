@@ -1,10 +1,7 @@
 :root {
-
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -12,7 +9,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-html, body {
+html,
+body {
   width: 100% !important;
   max-width: 100% !important;
   margin: 0 !important;
@@ -85,13 +83,11 @@ button:focus-visible {
   }
 }
 
-
 .nav-link.active {
   color: #0d6efd !important; /* Bootstrap primary blue */
   font-weight: bold;
   border-bottom: 3px solid #0d6efd;
 }
-
 
 .nav-link:hover {
   color: #0a58ca !important; /* Darker blue on hover */
@@ -100,42 +96,34 @@ button:focus-visible {
   transition: all 0.3s ease;
 }
 
-
 .nav-link {
   transition: all 0.3s ease;
 }
 
-
-
-.head{
-display: flex;
-justify-content: space-between;
-
+.head {
+  display: flex;
+  justify-content: space-between;
 }
 
-
-
-.projectCard{
+.projectCard {
   display: flex;
-align-items: flex-start;
+  align-items: flex-start;
   padding: 2rem;
   gap: 2rem;
-
 }
 
-.prjDesc{
-
+.prjDesc {
   margin-left: 0;
   justify-content: space-around;
-  flex:1;
+  flex: 1;
 }
-.prjDesc a:hover{
+.prjDesc a:hover {
   text-decoration: underline;
 }
-.boxHome a:hover{
+.boxHome a:hover {
   text-decoration: underline;
 }
-.thumbnail{
+.thumbnail {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -145,7 +133,7 @@ align-items: flex-start;
   width: 120px;
   border: 2px solid #0d6efd;
 }
-.thumbnailWide{
+.thumbnailWide {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -156,14 +144,73 @@ align-items: flex-start;
   border: 2px solid #0d6efd;
 }
 .headshot {
-    background-color: rgba(13, 110, 253, 0.1);
-    border-radius: 15px;
-    border: 2px solid #0d6efd;
-    width: 300px;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 0; 
+  background-color: rgba(13, 110, 253, 0.1);
+  border-radius: 15px;
+  border: 2px solid #0d6efd;
+  width: 200px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*stuff i added below*/
+.headshot {
+  max-width: 250px;
+}
+
+.headshot img {
+  border-radius: 14px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /*now when you change .headshot class, this will always fit in that div*/
+  /*https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit*/
+}
+
+.thumbnail {
+  /*just so they're all even which looks nicer to me*/
+  height: 140px;
+  width: 140px;
+}
+
+.projectCard {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.thumbnailWide img,
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /*cover will clip the image but i think that looks for for thumbnails*/
+  border-radius: 14px;
+}
+
+.boxHome p {
+  text-align: left;
+  width: 100%;
+}
+
+.columns {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.columns > div {
+  width: 50%;
+}
+
+.jobEntry {
+  text-align: left;
+}
+
+.jobEntry li p:first-of-type {
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+
+.education {
+  text-align: left;
 }

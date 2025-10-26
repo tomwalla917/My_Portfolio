@@ -12,11 +12,7 @@ function Portfolio() {
           <div className="box">
             <div className="projectCard">
               <div className="thumbnailWide">
-                <img
-                  src={searchRing}
-                  alt="Web App"
-                  style={{ width: "120px", height: "70px" }}
-                />
+                <img src={searchRing} alt="Web App" />
               </div>
               <div className="prjDesc">
                 <p style={{ fontWeight: "bold" }}>FAA Circle Search</p>
@@ -32,11 +28,7 @@ function Portfolio() {
             </div>
             <div className="projectCard">
               <div className="thumbnailWide">
-                <img
-                  src={finalDrive}
-                  alt="Web App"
-                  style={{ width: "120px", height: "70px" }}
-                />
+                <img src={finalDrive} alt="Web App" />
               </div>
               <div className="prjDesc">
                 <p style={{ fontWeight: "bold" }}>Final Drive Challenge</p>
@@ -58,11 +50,7 @@ function Portfolio() {
 
             <div className="projectCard">
               <div className="thumbnail">
-                <img
-                  src={dragonForge}
-                  alt="Web App"
-                  style={{ width: "70px", height: "100px" }}
-                />
+                <img src={dragonForge} alt="Web App" />
               </div>
               <div className="prjDesc">
                 <p style={{ fontWeight: "bold" }}>Dragon Forge</p>
@@ -82,11 +70,7 @@ function Portfolio() {
             </div>
             <div className="projectCard">
               <div className="thumbnail">
-                <img
-                  src={characterGallery}
-                  alt="Web App"
-                  style={{ width: "100px", height: "100px" }}
-                />
+                <img src={characterGallery} alt="Web App" />
               </div>
               <div className="prjDesc">
                 <p style={{ fontWeight: "bold" }}>Character Gallery</p>

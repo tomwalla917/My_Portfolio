@@ -1,15 +1,19 @@
-import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom'
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Home from './pages/Home.jsx'
-import Portfolio from './pages/Portfolio.jsx'
-import Contact from './pages/Contact.jsx'
-
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  NavLink,
+} from "react-router-dom";
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import Home from "./pages/Home.jsx";
+import Portfolio from "./pages/Portfolio.jsx";
+import Contact from "./pages/Contact.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <Router>
@@ -17,27 +21,38 @@ function App() {
         <header className="header bg tertiary">
           <div className="head">
             <div className="name">
-              <p className="h2">Thomas Wallace</p>
-              <p className="h4">Full Stack Developer</p>
+              <h2>Thomas Wallace</h2>
+              <h4>Full Stack Developer</h4>
             </div>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
               <div className="container-fluid">
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#navbarNav"  /* Change this */
-                  aria-controls="navbarNav"     /* And this */
-                  aria-expanded="false" aria-label="Toggle navigation">
+                <button
+                  className="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav" /* Change this */
+                  aria-controls="navbarNav" /* And this */
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
                   <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                   <ul className="navbar-nav ms-auto">
                     <li className="nav-item">
-                      <NavLink className="nav-link" to="/">Home Page</NavLink>
+                      <NavLink className="nav-link" to="/">
+                        Home Page
+                      </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink className="nav-link" to="/portfolio">Portfolio Page</NavLink>
+                      <NavLink className="nav-link" to="/portfolio">
+                        Portfolio Page
+                      </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink className="nav-link" to="/contact">Contact Page</NavLink>
+                      <NavLink className="nav-link" to="/contact">
+                        Contact Page
+                      </NavLink>
                     </li>
                   </ul>
                 </div>
@@ -53,7 +68,7 @@ function App() {
         </Routes>
       </div>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
