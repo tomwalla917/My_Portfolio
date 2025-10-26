@@ -172,7 +172,13 @@ function Contact() {
                                 <div className="resumeContact">
                                     <p>✉️ email@gmail.com</p>
                                     <p>📞 888-888-8888</p>
-                                    <p>https://github.com/tomwalla917</p>
+                                    <p><a
+                                        href="https://github.com/tomwalla917/final_drive_challenge"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        GitHub Repository
+                                    </a></p>
                                 </div>
                                 <p className="resumeHeader">Skills</p>
                                 <div className="resumeContact">

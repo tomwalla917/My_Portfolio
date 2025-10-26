@@ -117,23 +117,38 @@ justify-content: space-between;
 
 .projectCard{
   display: flex;
-  justify-content: space-between;
-  margin: 2rem;
+align-items: flex-start;
   padding: 2rem;
   gap: 2rem;
 
 }
 
 .prjDesc{
-  display: flex;
-  align-items: flex-start;
+
   margin-left: 0;
+  justify-content: space-around;
   flex:1;
 }
-
+.prjDesc a:hover{
+  text-decoration: underline;
+}
 .thumbnail{
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgba(13, 110, 253, 0.1);
+  border-radius: 15px;
+  height: 120px;
+  width: 120px;
+  border: 2px solid #0d6efd;
 }
-
+.thumbnailWide{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(13, 110, 253, 0.1);
+  border-radius: 15px;
+  height: 120px;
+  width: 140px;
+  border: 2px solid #0d6efd;
+}
