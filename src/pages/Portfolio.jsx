@@ -11,7 +11,7 @@ function Portfolio() {
 
             <div className="page-content">
                 <div className="row mt-3">
-                    <h2 className="page-title">Some of my projects</h2>
+                   
                     <div className="box">
                         <div className='projectCard'>
                             <div className='thumbnailWide'>
@@ -20,8 +20,9 @@ function Portfolio() {
                             <div className='prjDesc'>
                                 <p style={{ fontWeight: 'bold' }}>FAA Circle Search</p>
                                 <p>
-                                    FAA Circle Search tool. Input your target latitude, longitude and search radius to find all filed and completed studies near
-                                    your project. This application uses JavaScript, HTML, CSS, SQL, C# and ASP.NET. Contact me to set up an access key or free trial. 
+                                    A geospatial search tool that allows users to input latitude, longitude, and search radius to find all filed 
+                                    and completed FAA studies near their project location. Built with JavaScript, HTML, CSS, SQL, C#, and ASP.NET. 
+                                    Contact me to request an access key or start a free trial.
                                 </p>
                                 <Link to="/contact"> Contact me
                                 </Link>
@@ -34,8 +35,8 @@ function Portfolio() {
                             <div className='prjDesc'>
                                 <p style={{ fontWeight: 'bold' }}>Final Drive Challenge</p>
                                 <p>
-                                    A turn-based football game. You have the ball left with one possession, go through the prompts to try and score. This application
-                                    uses JavaScript, CSS and HTML.
+                                    A turn-based football game where you control the final possession of the game. Follow the prompts to make 
+                                    strategic plays and score the winning touchdown. Built with JavaScript, HTML, and CSS.
                                 </p>
                                 <a
                                     href="https://github.com/tomwalla917/final_drive_challenge"
@@ -54,8 +55,8 @@ function Portfolio() {
                             <div className='prjDesc'>
                                 <p style={{ fontWeight: 'bold' }}>Dragon Forge</p>
                                 <p>
-                                    A front end dragon creation gallery. You are able to create a dragon by setting their type, age, element
-                                    and special ability. This application uses JavaScript, HTML, CSS and TypeScript.
+                                    A front-end dragon creator that lets you design custom dragons by selecting their type, age, element, 
+                                    and special abilities. Built with TypeScript, JavaScript, HTML, and CSS.
                                 </p>
                                 <a
                                     href="https://github.com/tomwalla917/week_seven_capstone"
@@ -73,8 +74,8 @@ function Portfolio() {
                             <div className='prjDesc'>
                                 <p style={{ fontWeight: 'bold' }}>Character Gallery</p>
                                 <p>
-                                    A front end character creation gallery. You are able to create a character, then navigate to your character and
-                                    manipulate their personal inventory. This application uses JavaScript, HTML, CSS and DOM manipulation.
+                                    An interactive character creation tool where you can build characters and manage their personal inventories. 
+                                    Built with JavaScript, HTML, CSS, and DOM manipulation.
                                 </p>
                                 <a
                                     href="https://github.com/tomwalla917/week_four_capstone"

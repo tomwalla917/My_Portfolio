@@ -193,8 +193,26 @@ function Contact() {
                                 <p className="resumeHeader">Experience</p>
                                 <div class="resumeExp">
                                     <div className="jobEntry">
-                                        <p>Job history 1</p>
-                                        <p>role and functions</p>
+                                        <p><strong>Airspace Consultant</strong></p>
+
+                                        <p>FAA Marking and Lighting Tool</p>
+                                        <p>
+                                            Developed a web application that determines FAA marking and lighting requirements for proposed
+                                            developments and filed structures. Built with JavaScript, HTML, CSS, C#, and SQL.
+                                        </p>
+
+                                        <p>FAA Circle Search Tool</p>
+                                        <p>
+                                            Created a geospatial search tool enabling users to identify active and completed FAA filings
+                                            within a specified radius of any location. Built with JavaScript, HTML, CSS, C#, and SQL.
+                                        </p>
+
+                                        <p>Contract Management</p>
+                                        <p>
+                                            Serve as Lead Contract Liaison for major utility provider accounts, coordinating communication
+                                            between transmission line engineers, project managers, and cost analysts to ensure seamless
+                                            project execution and maintain strong client relationships.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="resumeExp">
@@ -211,7 +229,10 @@ function Contact() {
                                 </div>
 
                                 <p className="resumeHeader">Education</p>
-                                <p>Education content</p>
+                                <p><strong>UCF SplitStack Software Development Program</strong></p>
+                                <p>Full-stack web development certification</p>
+                                <p><strong>Bachelor of Science in Psychology and Criminal Justice</strong></p>
+                                <p>Mercer University | Graduated 2019</p>
                             </div>
                         </div>
                     </div>

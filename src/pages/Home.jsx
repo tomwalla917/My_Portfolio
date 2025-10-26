@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import headShot from '../assets/Images/headshot.jpg'
 
 function Home() {
     return (
@@ -9,7 +10,7 @@ function Home() {
                 <div className="container-fluid">
                     <div class="row mt-5">
                         <div class="col-md-7">
-                            <div className="box">
+                            <div className="boxHome">
 
                                 <p>
                                     Welcome! I'm Thomas Wallace,
@@ -19,11 +20,13 @@ function Home() {
                                     that solve real-world problems. With expertise in JavaScript, React,
                                     and modern web technologies, I bring ideas to life through code.
                                 </p>
-                                <p>avatar/headshot goes here</p>
+                             <div className="headshot">
+                                <img src={headShot} alt="Head shot" style={{ width: '200px', height: 'auto' }} />
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-5">
-                            <div className="box">
+                            <div className="boxHome">
                                 <p>
                                     Navigate to my portfolio page to see what I have worked on, and click on my contact page to connect!
                                 </p>
