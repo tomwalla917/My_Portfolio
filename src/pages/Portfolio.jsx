@@ -14,7 +14,7 @@ function Portfolio() {
                    
                     <div className="box">
                         <div className='projectCard'>
-                            <div className='thumbnailWide'>
+                            <div className='thumbnail'>
                                 <img src={searchRing} alt="Web App" style={{ width: '120px', height: '70px' }} />
                             </div>
                             <div className='prjDesc'>
@@ -29,7 +29,7 @@ function Portfolio() {
                             </div>
                         </div>
                         <div className='projectCard'>
-                            <div className='thumbnailWide'>
+                            <div className='thumbnail'>
                                 <img src={finalDrive} alt="Web App" style={{ width: '120px', height: '70px' }} />
                             </div>
                             <div className='prjDesc'>

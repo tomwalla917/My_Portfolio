@@ -9,7 +9,7 @@ function Home() {
             <div className="page-content">
                 <div className="container-fluid">
                     <div class="row mt-5">
-                        <div class="col-md-7">
+                        <div class="col-md-12">
                             <div className="boxHome">
 
                                 <p>
@@ -20,18 +20,16 @@ function Home() {
                                     that solve real-world problems. With expertise in JavaScript, React,
                                     and modern web technologies, I bring ideas to life through code.
                                 </p>
-                             <div className="headshot">
-                                <img src={headShot} alt="Head shot" style={{ width: '200px', height: 'auto' }} />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-5">
-                            <div className="boxHome">
                                 <p>
                                     Navigate to my <Link to="/portfolio">Portfolio Page</Link> to see what I have worked on, and click on my <Link to="/contact">Contact Page</Link> to connect!
                                 </p>
+                             <div className="headshot">
+                                <img src={headShot} alt="Head shot" style={{ width: '200px', height: 'auto' }} />
+                                </div>
+                                
                             </div>
                         </div>
+                        
 
                     </div>
                 </div>

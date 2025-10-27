@@ -215,18 +215,7 @@ function Contact() {
                                         </p>
                                     </div>
                                 </div>
-                                <div class="resumeExp">
-                                    <div className="jobEntry">
-                                        <p>Job history 2</p>
-                                        <p>role and functions</p>
-                                    </div>
-                                </div>
-                                <div class="resumeExp">
-                                    <div className="jobEntry">
-                                        <p>Job history 3</p>
-                                        <p>role and functions</p>
-                                    </div>
-                                </div>
+            
 
                                 <p className="resumeHeader">Education</p>
                                 <p><strong>UCF SplitStack Software Development Program</strong></p>
