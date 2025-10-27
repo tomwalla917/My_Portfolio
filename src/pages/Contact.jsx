@@ -173,7 +173,7 @@ function Contact() {
                                     <p>✉️ email@gmail.com</p>
                                     <p>📞 888-888-8888</p>
                                     <p><a
-                                        href="https://github.com/tomwalla917/final_drive_challenge"
+                                        href="https://github.com/tomwalla917"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
