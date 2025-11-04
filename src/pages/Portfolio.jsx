@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
-import characterGallery from '../assets/images/charactergallery.png'
-import dragonForge from '../assets/images/dragonforge.png'
-import finalDrive from '../assets/images/finaldrive.png'
-import searchRing from '../assets/images/searchring.png'
+import characterGallery from '../assets/Images/charactergallery.png'
+import dragonForge from '../assets/Images/dragonforge.png'
+import finalDrive from '../assets/Images/finaldrive.png'
+import searchRing from '../assets/Images/searchring.png'
 
 function Portfolio() {
     return (
