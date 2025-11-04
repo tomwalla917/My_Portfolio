@@ -12,8 +12,8 @@ function Home() {
                         <div class="col-md-12">
                             <div className="boxHome">
 
-                                <p>Hello</p>
-                                <p>My Name is Tom</p>
+                                <p>Hello,</p>
+                                <p>My Name is Tom.</p>
                                 <p>I am a full stack developer based in Melbourne, Florida.</p>
                                 <p>I am passionate about making professional UI designs with an emphasis on clear UX.</p>
                                 <p>
