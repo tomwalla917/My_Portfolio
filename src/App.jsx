@@ -12,7 +12,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <Router>
+    <Router basename="/My_Portfolio">
       <div className="app">
         <header className="header bg tertiary">
           <div className="head">
