@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import headShot from '../assets/images/headshot.jpg'
+import headShot from '../assets/Images/headshot.jpg'
 
 function Home() {
     return (
