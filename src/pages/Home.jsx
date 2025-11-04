@@ -12,14 +12,10 @@ function Home() {
                         <div class="col-md-12">
                             <div className="boxHome">
 
-                                <p>
-                                    Welcome! I'm Thomas Wallace,
-                                    Full-Stack Developer & Problem Solver
-
-                                    I'm passionate about creating efficient, user-friendly web applications
-                                    that solve real-world problems. With expertise in JavaScript, React,
-                                    and modern web technologies, I bring ideas to life through code.
-                                </p>
+                                <p>Hello</p>
+                                <p>My Name is Tom</p>
+                                <p>I am a full stack developer based in Melbourne, Florida.</p>
+                                <p>I am passionate about making professional UI designs with an emphasis on clear UX.</p>
                                 <p>
                                     Navigate to my <Link to="/portfolio">Portfolio Page</Link> to see what I have worked on, and click on my <Link to="/contact">Contact Page</Link> to connect!
                                 </p>
