@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, NavLink } from 'react-router-dom'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -12,7 +12,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <Router basename="/My_Portfolio">
+    <Router>
       <div className="app">
         <header className="header bg tertiary">
           <div className="head">
